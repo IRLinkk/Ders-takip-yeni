@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haziran İkinci Hafta</title>
+    <style>
+
+        body {
+
+            background-color: rgb(231, 228, 209, 0.3);
+        }
+
+        hr {
+            border-top: 2px dashed rgb(126, 7, 159);
+        }
+
+        h2 {
+            color: crimson;
+            /* font-size: 24px; */
+        }
+
+        h3 {
+            color:rgb(76, 76, 0);
+            /* font-size: 20px; */
+        }
+
+        ul {
+        list-style: none; /* Remove default bullets */
+        /* font-size: 22px ; */
+        }
+        
+        ul li::before {
+        content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: rgb(0, 13, 255); /* Change the color */
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+        }
+        ul li ul li {
+            color: #4e0082;
+        }
+        .dersTablo {
+            border-spacing: 10px;
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .dersTablo th, .dersTablo td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #25ed7cd2;
+        }
+        
+        .dersTablo th {
+            background-color: #006885cd;
+            font-weight: bold;
+        }
+
+        .dersTablo td {
+            text-align: center ;
+            font-weight: bold;
+        }
+
+        .header {
+            background-color: #ff0d00b8;
+            font-weight: bold;
+        }
+
+        /* .box, input {
+            display: none;
+        }
+        input:checked + .box {
+            display: block;
+        } */
+
+    </style>
+</head>
+
+<body id="uppest">
+
+    <table class="dersTablo">
+        <thead>
+            <tr>
+                <th>Ders</th>
+                <th>Pazartesi</th>
+                <th>Salı</th>
+                <th>Çarşamba</th>
+                <th>Perşembe</th>
+                <th>Cuma</th>
+                <th>Cumartesi</th>
+                <th>Pazar</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="header">TYT Matematik</td>
+                <td>33 Soru</td>
+                <td>──</td>
+                <td>33 Soru</td>
+                <td>──</td>
+                <td>24 Soru</td>
+                <td>──</td>
+                <td>40 Soru</td>
+            </tr>
+
+            <tr>
+                <td class="header">TYT Türkçe / Paragraf</td>
+                <td>24 Soru</td>
+                <td>18 Soru</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>24 Soru</td>
+                <td>24 Soru</td>
+            </tr>
+            <tr>
+                <td class="header">AYT Matematik</td>
+                <td>──</td>
+                <td>24 Soru</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+            </tr>
+            <tr>
+                <td class="header">Geometri</td>
+                <td>12 Soru</td>
+                <td>41 Soru</td>
+                <td>──</td>
+                <td>──</td>
+                <td>20 Soru</td>
+                <td>17 Soru</td>
+                <td>36 Soru</td>
+            </tr>
+            <tr>
+                <td class="header">Fen Dersi</td>
+                <td>14 Soru</td>
+                <td>21 Soru</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="container">
+        <hr>
+        <h2>05.06.2023 Pazaretsi</h2>
+        <ul>
+            <li>32 dk Paragraf Soru Çözümü 24 Soru (21D 3Y) (Paragrafta Yardımcı Düşünce)
+                <ul>
+                    <li>1. Test 16 dk 12 Soru (10D 2Y)</li>
+                    <li>1. Test 16 dk 12 Soru (11D 1Y)</li>
+                </ul>
+            </li>
+            <li>58 dk TYT Matematik Soru Çözümü 33 Soru
+                <ul>
+                    <li>45 dk Hız Problemleri 23 Soru</li>
+                    <li>13 dk Üslü Sayıkar 10 Soru</li>
+                </ul>
+            </li>
+            <li>12 dk TYT Geometri (Üçgende Benzerlik) Soru Çözümü 12 Soru</li>
+            <li>26 dk AYT Kimya Konu Tekrarı + Soru Çözümü 14 Soru (Kimyasal Tepkimelerde Denge)</li>
+        <ul>                   
+    </div>
+
+    <div class="container">
+        <hr>
+        <h2>06.06.2023 Salı</h2>
+        <ul>
+            <li>22 dk TYT Türkçe Soru Çözümü 18 Soru (Cümlenin Ögeleri - Cümle Türleri)</li>
+            <li>52 dk AYT Matematik Soru Çözümü 24 Soru (İkinci Dereceden Bir Bilinmeyenli Denklemler)</li>
+            <li>45 dk TYT Geometri Soru Çözümü 41 Soru</li>
+            <li>36 dk AYT Kimya Konu Tekrarı + Soru Çözümü 21 Soru
+                <ul>
+                    <li>30 dk Kimyasal Tepkimelerde Denge 9 Soru</li>
+                    <li>6 dk Gazlar 12 Soru</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+    </div>
+
+    <div class="container">
+        <hr>
+        <h2>07.06.2023 Çarşamba</h2>
+        <ul>
+            <li>1 saat 5 dk TYT Matematik Soru Çözümü 33 Soru
+                <ul>
+                    <li>45 dk Polinomlar 24 Soru</li>
+                    <li>20 dk EBOB-EKOK 9 Soru</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+    </div>
+
+    <div class="container">
+        <hr>
+        <h2>08.06.2023 Perşembe</h2>
+        <ul>
+
+        </ul>
+        <hr>
+    </div>
+
+    <div class="container">
+        <hr>
+        <h2>09.06.2023 Cuma</h2>
+        <ul>
+            <li>37 dk TYT Matematik (Polinomlar) Soru Çözümü 24 Soru</li>
+            <li>25 dk TYT Geometri Soru Çözümü 20 Soru</li>
+        </ul>
+        <hr>
+    </div>
+
+    <div class="container">
+        <hr>
+        <h2>10.06.2023 Cumartesi</h2>
+        <ul>
+            <li>32 dk Paragraf Soru Çözümü 24 Soru (21D 3Y) (Paragrafta Yardımcı Düşünce)
+                <ul>
+                    <li>1. Test 18 dk 12 Soru (11D 1Y)</li>
+                    <li>1. Test 14 dk 12 Soru (10D 2Y)</li>
+                </ul>
+            </li>
+            <li>32 dk TYT Geometri Soru Çözümü 17 Soru (Dik Üçgen)</li>
+        </ul>
+        <hr>
+    </div>
+
+    <div class="container">
+        <hr>
+        <h2>11.06.2023 Pazar</h2>
+        <ul>
+            <li>27 dk Paragraf Soru Çözümü 24 Soru (20D 4Y) (Paragrafta Yardımcı Düşünce)
+                <ul>
+                    <li>1. Test 14 dk 12 Soru (11D 1Y)</li>
+                    <li>1. Test 13 dk 12 Soru (9D 3Y)</li>
+                </ul>
+            </li>
+            <li>40 dk TYT Geometri Soru Çözümü 36 Soru (Üçgende Eşlik)</li>
+            <li>1 saat 10 dk TYT Matematik Soru Çözümü 40 Soru (İşçi Problemleri)</li>
+        </ul>
+        <hr>
+    </div>
+
+    <div class="container">
+        <hr>
+        <h2>Bu Hafta Yaptıklarım</h2>
+        <ul>
+            <li>1 saat 53 dk TYT Türkçe / Paragraf 90 Soru</li>
+            <li>4 saat 22 dk TYT Matematik 130 Soru</li>
+            <li>2 saat 34 dk TYT Geometri 126 Soru</li>
+            <li>52 dk AYT Matematik 24 Soru</li>
+            <li>1 saat 2 dk AYT Kimya 35 Soru</li>
+        </ul>
+
+        <h3>Haftalık Toplam 8 Saat 9 dk || 405 Soru <h3>
+        <hr>
+    </div>
+    <a href="/ders-takip.html">
+        Geri Dön
+    </a>
+
+    <!-- <li><label for="input2">
+        27 dk Paragraf 24 Soru (20D 4Y) (Paragrafta Konu Ve Ana Düşünce)
+    </label>
+    <input type="checkbox" id="input2">
+        <div class="box">
+            <ul>
+                <li>1. Test 12 dk 12 Soru (9D 3Y)</li>
+                <li>2. Test 15 dk 12 Soru (11D 1Y)</li>
+            </ul>
+        </div>
+    </li> -->
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayıs Son Hafta</title>
+    <style>
+
+        body {
+
+            background-color: rgb(231, 228, 209, 0.3);
+        }
+
+        hr {
+            border-top: 2px dashed rgb(126, 7, 159);
+        }
+
+        h2 {
+            color: crimson;
+            /* font-size: 24px; */
+        }
+
+        h3 {
+            color:rgb(76, 76, 0);
+            /* font-size: 20px; */
+        }
+
+        ul {
+        list-style: none; /* Remove default bullets */
+        /* font-size: 22px ; */
+        }
+        
+        ul li::before {
+        content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: rgb(0, 13, 255); /* Change the color */
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+        }
+
+        .dersTablo {
+            border-spacing: 10px;
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .dersTablo th, .dersTablo td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #25ed7cd2;
+        }
+        
+        .dersTablo th {
+            background-color: #006885cd;
+            font-weight: bold;
+        }
+
+        .dersTablo td {
+            text-align: center ;
+            font-weight: bold;
+        }
+
+        .header {
+            background-color: #ff0d00b8;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body id="uppest">
+
+    <table class="dersTablo">
+        <thead>
+            <tr>
+                <th>Ders</th>
+                <th>Pazartesi</th>
+                <th>Salı</th>
+                <th>Çarşamba</th>
+                <th>Perşembe</th>
+                <th>Cuma</th>
+                <th>Cumartesi</th>
+                <th>Pazar</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="header">TYT Matematik</td>
+                <td>18 Soru</td>
+                <td>8 Soru</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>65 Soru</td>
+            </tr>
+
+            <tr>
+                <td class="header">TYT Türkçe / Paragraf</td>
+                <td>24 Soru</td>
+                <td>22 Soru</td>
+                <td>24 Soru</td>
+                <td>18 Soru</td>
+                <td>24 Soru</td>
+                <td>──</td>
+                <td>24 Soru</td>
+            </tr>
+            <tr>
+                <td class="header">AYT Matematik</td>
+                <td>──</td>
+                <td>18 Soru</td>
+                <td>──</td>
+                <td>42 Soru</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+            </tr>
+            <tr>
+                <td class="header">Geometri</td>
+                <td>──</td>
+                <td>29 Soru</td>
+                <td>──</td>
+                <td>58 Soru</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+            </tr>
+            <tr>
+                <td class="header">Fen Dersi</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>27 Soru</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+            </tr>
+        </tbody>
+    </table>
+<hr>
+    <h2>22.05.2023 Pazaretsi</h2>
+    <ul>
+        <li>17 dk Paragraf 24 Soru (20D 4Y) (Paragrafta Konu Ve Ana Düşünce)
+            <ul>
+                <li>1. Test 9dk 12 Soru (10D 2Y)</li>
+                <li>2. Test 8dk 12 Soru (10D 2Y)</li>
+            </ul>
+        </li>
+        <li>20 dk TYT Matematik (Polinomlar) 18 Soru</li>
+
+    </ul>
+<hr>
+    <h2>23.05.2023 Salı</h2>
+    <ul>
+        <li>32 dk TYT Türkçe Konu Tekrarı + Soru Çözümü 22 Soru</li>
+        <li>33 dk AYT Matematik Soru Çözümü 18 Soru</li>
+        <li>15 dk TYT Matematik (Polinomlar) 8 Soru</li>
+        <li>45 dk TYT - AYT Geometri 29 Soru</li>
+    </ul>
+<hr>
+    <h2>24.05.2023 Çarşamba</h2>
+    <ul>
+        <li>23 dk Paragraf 24 Soru (20D 4Y) (Paragrafta Konu Ve Ana Düşünce)
+            <ul>
+                <li>1. Test 9dk 12 Soru (10D 2Y)</li>
+                <li>2. Test 14dk 12 Soru (10D 2Y)</li>
+            </ul>
+        </li>
+    </ul>
+<hr>
+    <h2>25.05.2023 Perşembe</h2>
+    <ul>
+        <li>1 saat 47 dk AYT Matematik Soru Çözümü 42 Soru</li>
+        <li>15 dk TYT Türkçe Soru Çözümü 18 Soru</li>
+        <li>43 dk AYT Geometri Soru Çözümü 25 Soru</li>
+        <li>48 dk TYT Geometri 33 Soru</li>
+        <li>25 dk AYT Kimya Soru Çözümü 27 Soru</li>
+    </ul>
+<hr>
+    <h2>26.05.2023 Cuma</h2>
+    <ul>
+        <li>23 dk Paragraf 24 Soru (21D 3Y) (Paragrafta Konu Ve Ana Düşünce)
+            <ul>
+                <li>1. Test 10 dk 12 Soru (10D 2Y)</li>
+                <li>2. Test 13 dk 12 Soru (11D 1Y)</li>
+            </ul>
+        </li>
+        <li>16 dk TYT Matematik Soru Çözümü 14 Soru (İkinci Dereceden Denklemler)</li>
+        <li></li>
+    </ul>
+<hr>
+    <h2>27.05.2023 Cumartesi</h2>
+    <!-- <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul> -->
+<hr>
+    <h2>28.05.2023 Pazar</h2>
+    <ul>
+        <li>27 dk Paragraf 24 Soru (20D 4Y) (Paragrafta Konu Ve Ana Düşünce)
+            <ul>
+                <li>1. Test 12 dk 12 Soru (9D 3Y)</li>
+                <li>2. Test 15 dk 12 Soru (11D 1Y)</li>
+            </ul>
+        </li>
+        <li>1 saat 4 dk TYT Matematik Soru Çözümü 33 Soru (Yaş Problemleri)</li>
+        <li>25 dk TYT Matematik Soru Çözümü 16 Soru (Grafik Yorumlama)</li>
+        <li>16 dk TYT Matematik Soru Çözümü 16 Soru (Polinomlar)</li>
+    </ul>
+<hr>
+<hr>
+    <h2>Bu Hafta Yaptıklarım</h2>
+    <ul>
+        <li>1 Saat 50 dk TYT Türkçe / Paragraf 136 Soru</li>
+        <li>2 Saat 51 dk TYT Matematik 91 Soru</li>
+        <li>2 Saat 20 dk AYT Matematik 60 Soru</li>
+        <li>1 Saat 33 dk TYT/AYT Geometri 87 Soru</li>
+        <li>25 dk AYT Kimya 27 Soru</li>
+    </ul>
+
+    <h3>Haftalık Toplam 8 Saat 59 dk || 401 Soru <h3>
+<hr>
+    <a href="/ders-takip.html">
+        Geri Dön
+    </a>
+
+</body>
+</html>

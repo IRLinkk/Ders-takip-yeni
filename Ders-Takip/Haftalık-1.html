@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mart Son Hafta</title>
+    <style>
+
+        body {
+
+            background-color: rgb(231, 228, 209, 0.3);
+        }
+
+        hr {
+            border-top: 2px dashed rgb(126, 7, 159);
+        }
+
+        h2 {
+            color: crimson;
+        }
+
+        h3 {
+            color:rgb(76, 76, 0)
+        }
+
+        ul {
+        list-style: none; /* Remove default bullets */
+        }
+        
+        ul li::before {
+        content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: rgb(0, 13, 255); /* Change the color */
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+        }
+
+        .dersTablo {
+            border-spacing: 10px;
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .dersTablo th, .dersTablo td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #25ed7cd2;
+        }
+        
+        .dersTablo th {
+            background-color: #006885cd;
+            font-weight: bold;
+        }
+
+        .dersTablo td {
+            text-align: center ;
+            font-weight: bold;
+        }
+
+        .header {
+            background-color: #ff0d00b8;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body id="uppest">
+
+    <table class="dersTablo">
+        <thead>
+            <tr>
+                <th>Ders</th>
+                <th>Cumartesi</th>
+                <th>Pazar</th>
+                <th>Pazartesi</th>
+                <th>Salı</th>
+                <th>Çarşamba</th>
+                <th>Perşembe</th>
+                <th>Cuma</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="header">TYT Matematik</td>
+                <td>──</td>
+                <td>13 Soru</td>
+                <td>8 Soru</td>
+                <td>30 Soru</td>
+                <td>──</td>
+                <td>──</td>
+                <td>36 Soru</td>
+            </tr>
+
+            <tr>
+                <td class="header">TYT Türkçe / Paragraf</td>
+                <td>20 Soru</td>
+                <td>20 Soru</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+            </tr>
+            <tr>
+                <td class="header">AYT Matematik</td>
+                <td>──</td>
+                <td>──</td>
+                <td>23 Soru</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>36 Soru</td>
+            </tr>
+            <tr>
+                <td class="header">Geometri</td>
+                <td>──</td>
+                <td>──</td>
+                <td>12 Soru</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+            </tr>
+            <tr>
+                <td class="header">Kimya</td>
+                <td>──</td>
+                <td>12 Soru</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>15 Soru</td>
+            </tr>
+
+            <tr>
+                <td class="header">Biyoloji</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+            </tr>
+
+            <tr>
+                <td class="header">Fizik</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+                <td>──</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <div>
+        <hr>
+            <h2 id="uppest">25.03.2023 Cumartesi</h2>
+            <ul>
+                <li>26 dk Paragraf 20 Soru (12D 8Y)</li>
+            </ul>
+            <hr>
+            <h2>26.03.2023 Pazar</h2>
+            <ul>
+                <li>58 dk Paragraf 20 Soru (17D 3Y) (Okuduğunu Anlama Çalışması)</li>
+                <li>20 dk TYT Matematik Soru Çözümü 13 Soru</li>
+            </ul>
+            <hr>
+            <h2>27.03.2023 Pazartesi</h2>
+            <ul>
+                <li>TYT Matematik 8 Soru</li>
+                <li>Kimya 12 Soru</li>
+            </ul>
+            <hr>
+            <h2>28.03.2023 Salı</h2>
+            <ul>
+                <li>52 dk TYT Matetmatik 30 Soru</li>
+                <li>25 dk Geometri 12 Soru</li>
+                <li>28 dk Yapamadığım soruların video çözümü</li>
+                <li>57 dk AYT Matematik Soru Çözümü + Video Çözüm 23 Soru</li>
+            </ul>
+            <hr>
+            <h2>31.03.2023 Cuma</h2>
+            <ul>
+                <li>1 saat 5dk TYT Matematik Soru Çözümü 36 Soru</li>
+                <li>53 dk AYT Matematik Soru Çözümü 26 Soru</li>
+                <li>24 Dk Kimya Soru Çözümü 15 Soru </li>
+            </ul>
+            <hr>
+            <h2>Bu Hafta Yaptıklarım</h2>
+            <ul>
+                <li>2 Saat 17 dk TYT Matematik 87 Soru</li>
+                <li>1 Saat 50 dk AYT Matematik 49 Soru</li>
+                <li>25 dk Geometri 12 Soru</li>
+                <li>1 Saat 24 dk Paragraf Çalışması 40 Soru</li>
+                <li>48 dk Kimya 27 Soru</li>
+            </ul>
+
+            <h3>Haftalık Toplam 6 Saat 44 dk || 215 Soru </h3>
+        <hr>
+
+    <a href="/ders-takip.html">
+        Geri Dön
+    </a>
+
+</body>
+</html>
